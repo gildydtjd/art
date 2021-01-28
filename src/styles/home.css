@@ -5,10 +5,12 @@
     background-position: center;
     background-origin: border-box;
     height: 100vh;
+    background-attachment: fixed;
 }
 
 @media (max-width : 768px){
     .home {
         background-image: url('../img/header/art_main_app.jpg');
+        background-attachment: unset;
     }
 }

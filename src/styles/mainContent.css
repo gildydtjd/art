@@ -1,4 +1,5 @@
 .mainContent {
+    padding: 0;
 }
 
 .art__list {
@@ -16,18 +17,34 @@
     margin: 30px;
 }
 
+.artList:hover span {
+    animation: visi 3s forwards;
+}
+
+@keyframes visi {
+    0% {
+        visibility: hidden;
+        opacity: 0.2;
+    }
+
+    100% {
+        visibility: visible;
+    }
+}
+
 .artList_span{
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    visibility: hidden;
+    border: 2px solid black;
 }
 
 .artList span {
     font-size: 20px;
     font-weight: 700;
-    background-color: gray;
-    opacity: 80%;
+    background-color: white;
     padding: 10px;
     border-radius: 4px;
 }
@@ -39,6 +56,7 @@
 
     .art__list {
         float: none;
+        margin-top: unset;
     }
 
     .artList {
@@ -46,9 +64,6 @@
         margin-top: 20px;
         width: 100%;
         height: 600px;
-    }
-
-    .artList:hover {
     }
 }
 

@@ -4,8 +4,6 @@ function ArtList( {art} ) {
     const style = {
         backgroundImage: `url(${art.url})`
     }
-      console.log(art);
-
     return (
         <div className="artList" style={style}>
             <div className="artList_span">
