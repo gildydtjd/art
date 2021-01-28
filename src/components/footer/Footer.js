@@ -14,11 +14,11 @@ class Footer extends Component {
                         <li><a href="/" alt="">게시중단요청서비스</a></li>
                         <li><a href="/" alt="">고객센터</a></li>
                     </ul>
-                        <address>
+                        <div>
                             Copyright ©
                             <a href="/" alt=""><strong>DragonArt</strong></a>
                                 All Rights Reserved.
-                        </address>
+                        </div>
                     </div>
             </div>
         );
