@@ -18,7 +18,7 @@
 }
 
 .header__menu:hover {
-    color: salmon;
+    color: black;
 }
 
 @media (max-width:768px){

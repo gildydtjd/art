@@ -1,0 +1,48 @@
+.footer {
+    clear: both;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 200px;
+	padding: 15px 0;
+	text-align: center;
+	color: black;
+    background: white;
+    border-top: 1px solid #c9c9c9;
+}
+
+.footer__box {
+    text-align: center;
+    padding: 30px 50px;
+} 
+
+.footer__box li {
+    position: relative;
+    display: inline;
+    padding: 0 7px 0 10px;
+    white-space: nowrap;
+}
+
+.footer__box li:before {
+    content: ''; 
+    width: 1px;
+    height: 12px;
+    background-color: #dbdbdb;
+    position: absolute;
+    left: 0; top: 2px;
+}
+.footer__box li:first-child:before {
+    width: 0;
+}
+
+.footer__box a {
+    color: black;
+    text-decoration: none;
+}
+
+.footer__box a:hover {
+    color: #c9c9c9;
+}
+.footer__box address {
+    padding-top: 15px;
+}

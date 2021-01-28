@@ -1,28 +1,8 @@
 import { Link } from "react-router-dom";
 import '../../styles/header.css';
-import $ from 'jquery';
 import React from 'react';
 
 function Header(props) {
-    $(document).ready(function(){
-
-        var navHeight = $(".header").height(); 
-    
-        $(".header").show();
-    
-        $(window).scroll(function(){
-            var rollIt = $(this).scrollTop() >= navHeight; 
-    
-        if(rollIt){ 
-                $(".header").show().css({"backgroundColor":"black"});
-            }
-            else{
-                $(".header").show().css({"backgroundColor":"unset"});
-            }
-        });
-        
-    });
-
         return (
             <div className="header">
                 <div className="header__link" style={{display:'flex'}}>
