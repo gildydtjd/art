@@ -19,7 +19,7 @@
 }
 
 .header__menu:hover {
-    color: black;
+    color: navajowhite;
 }
 
 @media (max-width:768px){
@@ -43,7 +43,7 @@
     }
 
     .header__menu:hover {
-        color: black;
+        color: navajowhite;
         border-bottom: unset;
     }
 }
