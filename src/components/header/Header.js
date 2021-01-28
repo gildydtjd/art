@@ -13,6 +13,14 @@ class Header extends Component {
                     <Link to='/Home2' style={{textDecoration:'none'}}>
                         <h2>ARTISTS</h2>
                     </Link>
+
+                    <Link to='/Home2' style={{textDecoration:'none'}}>
+                        <h2>SHOP</h2>
+                    </Link>
+
+                    <Link to='/Home2' style={{textDecoration:'none'}}>
+                        <h2>QNA</h2>
+                    </Link>
                 </div>
             </div>
         );

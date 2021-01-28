@@ -4,5 +4,11 @@
     background-attachment: scroll;
     background-position: center;
     background-origin: border-box;
-    height: 50rem;
+    height: 100vh;
+}
+
+@media (max-width : 768px){
+    .home {
+        background-image: url('../img/header/art_main_app.jpg');
+    }
 }
