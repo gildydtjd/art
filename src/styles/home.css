@@ -1,0 +1,8 @@
+.home {
+    background-image: url('../img/header/art_main.jpg');
+    background-size: cover;
+    background-attachment: scroll;
+    background-position: center;
+    background-origin: border-box;
+    height: 50rem;
+}
