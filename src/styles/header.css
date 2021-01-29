@@ -2,7 +2,7 @@
     width: 100%;
     position: fixed;
     z-index: 1000;
-    background-color: steelblue;
+    background-color: #00000080;
 }
 
 .header__link{
@@ -25,7 +25,7 @@
 @media (max-width:768px){
     .header {
         flex-direction: column;
-        background-color: steelblue;
+        background-color: #00000080;
     }
     .header__link {
         flex-direction: column;
