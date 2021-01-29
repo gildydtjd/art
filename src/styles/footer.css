@@ -2,7 +2,6 @@
     clear: both;
     left: 0;
     bottom: 0;
-    width: 100%;
     height: 200px;
 	padding: 15px 0;
 	text-align: center;
@@ -48,4 +47,3 @@
 .footer__box div {
     padding-top: 15px;
 }
-
