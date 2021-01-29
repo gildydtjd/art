@@ -1,0 +1,17 @@
+.artisthome {
+    background-image: url('../img/content/back_09.jpg');
+    background-size: cover;
+    background-attachment: scroll;
+    background-position: center;
+    background-origin: border-box;
+    height: 100vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+@media (max-width : 768px){
+    .artisthome {
+        background-image: url('../img/content/back_09.jpg');
+        background-attachment: unset;
+    }
+}

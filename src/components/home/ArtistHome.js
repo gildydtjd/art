@@ -1,10 +1,15 @@
 import React, { Component } from 'react';
-
+import ArtistContent from '../Contents/ArtistContent';
+import Footer from '../footer/Footer';
+import Header from '../header/Header';
+import '../../styles/artistHome.css';
 class ArtistHome extends Component {
     render() {
         return (
-            <div>
-                아티스트홈
+            <div className="artisthome">
+                <Header/>
+                <ArtistContent />
+                <Footer />
             </div>
         );
     }

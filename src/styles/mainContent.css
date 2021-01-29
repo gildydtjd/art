@@ -1,5 +1,6 @@
 .mainContent {
-    padding: 0;
+    height: 100vh;
+    display: inline-table;
 }
 
 .art__list {
