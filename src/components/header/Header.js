@@ -6,19 +6,19 @@ function Header(props) {
         return (
             <div className="header">
                 <div className="header__link" style={{display:'flex'}}>
-                    <Link to='/Home2' style={{textDecoration:'none'}}>
+                    <Link to='/ArtHome' style={{textDecoration:'none'}}>
                         <h2 className="header__menu">ART</h2>
                     </Link>
 
-                    <Link to='/Home2' style={{textDecoration:'none'}}>
+                    <Link to='/ArtistHome' style={{textDecoration:'none'}}>
                         <h2 className="header__menu">ARTISTS</h2>
                     </Link>
 
-                    <Link to='/Home2' style={{textDecoration:'none'}}>
+                    <Link to='/ShopHome' style={{textDecoration:'none'}}>
                         <h2 className="header__menu">SHOP</h2>
                     </Link>
 
-                    <Link to='/Home2' style={{textDecoration:'none'}}>
+                    <Link to='/QNAHome' style={{textDecoration:'none'}}>
                         <h2 className="header__menu">QNA</h2>
                     </Link>
                 </div>

@@ -10,12 +10,16 @@
 }
 
 .artList {
-    background-size: cover;
+    background-size: contain;
+    background-position: center;
     width: 600px;
     height: 600px;
     background-repeat: no-repeat;
     display: inline-block;
     margin: 30px;
+    border: 1px solid #c9c9c9;
+    border-radius: 8px;
+    background-color: #000;
 }
 
 .artList:hover span {

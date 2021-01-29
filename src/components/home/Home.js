@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-import MainContent from '../components/Contents/MainContent';
-import Footer from '../components/footer/Footer';
-import Header from '../components/header/Header';
-import HeaderContainer from '../components/header/HeaderContainer';
-import '../styles/home.css';
+import Footer from '../footer/Footer.js';
+import Header from '../header/Header.js';
+import HeaderContainer from '../header/HeaderContainer.js';
+import '../../styles/home.css';
+import MainContent from '../Contents/MainContent.js';
 class Home extends Component {
     render() {
         return (

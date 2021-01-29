@@ -7,25 +7,25 @@ function MainContent(props) {
             key : 1,
             artist : 'Leonardo di ser Piero da Vinci',
             name : 'Mona Lisa',
-            url : process.env.PUBLIC_URL + '/daVinci.jpg'
+            url : process.env.PUBLIC_URL + 'assets/img/daVinci.jpg'
         },
         {
             key : 2,
             artist : 'Jean-François Millet',
             name : 'The Gleaners',
-            url : process.env.PUBLIC_URL + '/mile_1.jpg'
+            url : process.env.PUBLIC_URL + 'assets/img/mile_1.jpg'
                 },
         {
             key : 3,
             artist : 'Vincent Van Gogh',
             name : 'Sunflowers',
-            url : process.env.PUBLIC_URL + '/bean_1.jpg'
+            url : process.env.PUBLIC_URL + 'assets/img/bean_1.jpg'
                 },
         {
             key : 4,
             artist : 'Pablo Ruiz Picasso',
             name : 'The Weeping Woman',
-            url : process.env.PUBLIC_URL + '/picasso_1.jpg'
+            url : process.env.PUBLIC_URL + 'assets/img/picasso_1.jpg'
                 },
     ]
 
