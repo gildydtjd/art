@@ -1,5 +1,5 @@
 .shophome {
-    background-image: url('../img/content/back__01.jpg');
+    background-image: url('');
     background-size: cover;
     background-attachment: scroll;
     background-position: center;
@@ -10,7 +10,7 @@
 
 @media (max-width : 768px){
     .shophome {
-        background-image: url('../img/content/back__01.jpg');
+        background-image: url('');
         background-attachment: unset;
     }
 }
