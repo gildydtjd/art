@@ -8,51 +8,28 @@
     float: left;
     margin-top: 50px;
     margin-bottom: 50px;
+    display: contents;
 }
 
+.artList_box {
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin: 55px 40px;
+    background-color: #000;
+    overflow: hidden;
+}
+    
 .artList {
     background-size: contain;
     background-position: center;
-    width: 600px;
-    height: 600px;
+    width: 480px;
+    height: 480px;
     background-repeat: no-repeat;
-    display: inline-block;
-    margin: 30px;
-    border: 1px solid #c9c9c9;
     border-radius: 8px;
-    background-color: #000;
 }
 
-.artList:hover span {
-    animation: visi 3s forwards;
-}
-
-@keyframes visi {
-    0% {
-        visibility: hidden;
-        opacity: 0.2;
-    }
-
-    100% {
-        visibility: visible;
-    }
-}
-
-.artList_span{
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    visibility: hidden;
-    border: 2px solid black;
-}
-
-.artList span {
-    font-size: 20px;
-    font-weight: 700;
-    background-color: white;
-    padding: 10px;
-    border-radius: 4px;
+.artList:hover{
+    transform: scale(1.2);
 }
 
 @media (max-width : 768px){
@@ -62,14 +39,21 @@
 
     .art__list {
         float: none;
-        margin-top: unset;
     }
 
     .artList {
         margin: 0;
-        margin-top: 20px;
-        width: 100%;
-        height: 600px;
+        margin-top: unset;
+        height: 400px;
+        background-color: unset;
     }
 }
 
+
+.art__back {
+    background-image: url('../img/content/art13.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: block;
+}

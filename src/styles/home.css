@@ -1,5 +1,6 @@
 .home {
-    background-image: url('../img/header/art_main.jpg');
+    /* background-image: url('../img/header/art_main.jpg'); */
+    background-image: url('../img/content/art7.jpg');
     background-size: cover;
     background-attachment: scroll;
     background-position: center;
@@ -10,7 +11,7 @@
 
 @media (max-width : 768px){
     .home {
-        background-image: url('../img/header/art_main_app.jpg');
+        background-image: url('../img/content/art7.jpg');
         background-attachment: unset;
     }
 }

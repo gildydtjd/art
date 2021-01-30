@@ -5,11 +5,10 @@ function ArtList( {art} ) {
         backgroundImage: `url(${art.url})`
     }
     return (
+        <div className="artList_box">
         <div className="artList" style={style}>
-            <div className="artList_span">
-            <span style={{display:'inline-block', margin :'10px'}}>{art.artist}<br></br>{art.name}</span>
             </div>
-        </div>
+            </div>
     );
 }
 

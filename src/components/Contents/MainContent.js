@@ -5,28 +5,41 @@ function MainContent(props) {
     const art = [
         {
             key : 1,
-            artist : 'Leonardo di ser Piero da Vinci',
-            name : 'Mona Lisa',
-            url : process.env.PUBLIC_URL + 'assets/img/daVinci.jpg'
+            artist : '',
+            name : '',
+            url : process.env.PUBLIC_URL + 'assets/img/art1.jpg'
         },
         {
             key : 2,
-            artist : 'Jean-François Millet',
-            name : 'The Gleaners',
-            url : process.env.PUBLIC_URL + 'assets/img/mile_1.jpg'
+            artist : '',
+            name : '',
+            url : process.env.PUBLIC_URL + 'assets/img/art5.jpg'
                 },
         {
             key : 3,
-            artist : 'Vincent Van Gogh',
-            name : 'Sunflowers',
-            url : process.env.PUBLIC_URL + 'assets/img/bean_1.jpg'
+            artist : '',
+            name : '',
+            url : process.env.PUBLIC_URL + 'assets/img/art8.jpg'
                 },
         {
             key : 4,
-            artist : 'Pablo Ruiz Picasso',
-            name : 'The Weeping Woman',
-            url : process.env.PUBLIC_URL + 'assets/img/picasso_1.jpg'
+            artist : '',
+            name : '',
+            url : process.env.PUBLIC_URL + 'assets/img/art14.jpg'
                 },
+        {
+            key : 5,
+            artist : '',
+            name : '',
+            url : process.env.PUBLIC_URL + 'assets/img/art9.jpg'
+        },
+        {
+            key : 6,
+            artist : '',
+            name : '',
+            url : process.env.PUBLIC_URL + 'assets/img/art6.jpg'
+        },
+        
     ]
 
     const aarts = art.map(a => 
@@ -38,6 +51,8 @@ function MainContent(props) {
     console.log("메인");
     return (
         <div className="mainContent">
+                <div className="art__back">
+                </div>
                 <div className="art__list">
                     {aarts}
                 </div>
