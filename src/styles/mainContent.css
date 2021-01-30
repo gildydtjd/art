@@ -43,7 +43,6 @@
     animation-name: screen;
     animation-timing-function: ease-in;
     animation-duration: 2s;
-    animation-delay: 3s;
 }
 
 .art__back__text {
