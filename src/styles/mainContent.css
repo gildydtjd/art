@@ -53,7 +53,12 @@
     position: relative;
     margin-right: 25%;
     margin-top: 29%;
-    text-shadow:6px 2px 8px grey;
+    text-shadow:4px 2px 8px grey;
+    animation: text;
+    animation-duration: 3s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
 }
 
 @media (max-width : 768px){
@@ -99,6 +104,16 @@
     100% {
         opacity: 1;
 
+    }
+}
+
+@keyframes text {
+    0% {
+        visibility: hidden;
+    }
+
+    100% {
+        color: lightcoral;
     }
 }
 
