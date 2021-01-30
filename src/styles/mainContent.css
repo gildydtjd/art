@@ -32,6 +32,27 @@
     transform: scale(1.2);
 }
 
+.art__back {
+    background-image: url('../img/content/art13.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.art__back__text {
+    font-size: 50px;
+    font-weight: 700;
+    color: rgba(255,255,255,.75);
+    text-decoration: none;
+    position: relative;
+    margin-right: 25%;
+    margin-top: 29%;
+    text-shadow:6px 2px 8px grey;
+}
+
 @media (max-width : 768px){
     .mainContent {
         width: 100%;
@@ -47,13 +68,19 @@
         height: 400px;
         background-color: unset;
     }
+
+    .artList_box{ 
+        margin: 0;
+    }
+
+    .art__back {
+        height: 400px;
+    }
+
+    .art__back__text {
+        visibility: hidden;
+    }
 }
 
 
-.art__back {
-    background-image: url('../img/content/art13.jpg');
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-    display: block;
-}
+
