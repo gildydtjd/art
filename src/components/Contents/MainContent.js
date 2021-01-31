@@ -3,6 +3,10 @@ import '../../styles/mainContent.css';
 import ArtList from './ArtList';
 
 function MainContent(props) {
+    const style = {
+        backgroundImage: "url('/assets/img/art13.jpg')"
+    }
+
     const art = [
         {
             key : 1,
@@ -52,7 +56,7 @@ function MainContent(props) {
     console.log("메인");
     return (
         <div className="mainContent">
-                <div className="art__back">
+                <div className="art__back" style={style}>
                     <a className="art__back__text" href="/" alt="">Grief is the agony of an instant, the indulgence of
                         <br></br>grief the blunder of a life.</a>
                 </div>

@@ -33,7 +33,6 @@
 }
 
 .art__back {
-    background-image: url('../img/content/art13.jpg');
     background-size: cover;
     background-position: center;
     height: 100vh;

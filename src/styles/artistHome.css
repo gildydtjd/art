@@ -1,5 +1,4 @@
 .artisthome {
-    background-image: url('../img/content/art7.jpg');
     background-size: cover;
     background-attachment: scroll;
     background-position: center;
@@ -11,7 +10,6 @@
 
 @media (max-width : 768px){
     .artisthome {
-        background-image: url('../img/content/art7.jpg');
         background-attachment: unset;
     }
 }
