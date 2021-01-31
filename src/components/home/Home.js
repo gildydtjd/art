@@ -7,7 +7,7 @@ import React from 'react';
 
 function Home(props) {
     const style = {
-    backgroundImage: `url(${process.env.PUBLIC_URL}/assets/img/art7.jpg)`
+    backgroundImage: `url(${process.env.PUBLIC_URL}/assets/img/art_main.jpg)`
     }
     return (
         <div className="home" style={style}>
