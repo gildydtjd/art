@@ -1,6 +1,7 @@
 import React from 'react';
 import '../../styles/mainContent.css';
 import ArtList from './ArtList';
+
 function MainContent(props) {
     const art = [
         {
@@ -43,8 +44,8 @@ function MainContent(props) {
     ]
 
     const aarts = art.map(a => 
-        (
-        <ArtList 
+        (   
+                <ArtList 
             key={a.key} 
             art={a}/>
         ))
@@ -56,7 +57,7 @@ function MainContent(props) {
                         <br></br>grief the blunder of a life.</a>
                 </div>
                 <div className="art__list">
-                    {aarts}
+                {aarts}
                 </div>
         </div>
     );

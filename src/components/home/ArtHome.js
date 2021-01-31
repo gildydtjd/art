@@ -1,19 +1,19 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Footer from '../footer/Footer';
 import Header from '../header/Header';
 import '../../styles/artHome.css';
 import ArtContent from '../Contents/ArtContent';
 
-class ArtHome extends Component {
-    render() {
-        return (
-            <div className="arthome">
+function ArtHome({match}) {
+    const number = match.params;
+    console.log(match.params);
+    return (
+        <div className="arthome">
                 <Header />
-                <ArtContent />
+                <ArtContent number={number}/>
                 <Footer />
             </div>
-        );
-    }
+    );
 }
 
 export default ArtHome;
