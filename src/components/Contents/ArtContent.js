@@ -55,6 +55,7 @@ function ArtContent({number}) {
         },
         
     ]
+    console.log(art);
    
     return (
         <div className="artContent">
