@@ -10,10 +10,11 @@ function ArtContent({number}) {
     }
     const backStyle = {
         backgroundImage : `url(${process.env.PUBLIC_URL}/assets/img/art${artNumber}.jpg)`,
-        backgrounSize : 'cover',
-        backgroundPosition: 'center',
-        width : '700px',
-        height : '700px',
+        backgroundSize : 'cover',
+        backgroundRepeat: 'no-repeat',
+        backgroundPosition: 'center center',
+        width : '400px',
+        height : '400px'
     }
 
     const art = [
@@ -24,25 +25,25 @@ function ArtContent({number}) {
             url : process.env.PUBLIC_URL + 'assets/img/art1.jpg'
         },
         {
-            key : 2,
+            key : 5,
             artist : '',
             name : '22',
             url : process.env.PUBLIC_URL + 'assets/img/art5.jpg'
                 },
         {
-            key : 3,
+            key : 8,
             artist : '',
             name : '33',
             url : process.env.PUBLIC_URL + 'assets/img/art8.jpg'
                 },
         {
-            key : 4,
+            key : 14,
             artist : '',
             name : '44',
             url : process.env.PUBLIC_URL + 'assets/img/art14.jpg'
                 },
         {
-            key : 5,
+            key : 9,
             artist : '',
             name : '55',
             url : process.env.PUBLIC_URL + 'assets/img/art9.jpg'

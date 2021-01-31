@@ -11,25 +11,25 @@ function MainContent(props) {
             url : process.env.PUBLIC_URL + 'assets/img/art1.jpg'
         },
         {
-            key : 2,
+            key : 5,
             artist : '',
             name : '',
             url : process.env.PUBLIC_URL + 'assets/img/art5.jpg'
                 },
         {
-            key : 3,
+            key : 8,
             artist : '',
             name : '',
             url : process.env.PUBLIC_URL + 'assets/img/art8.jpg'
                 },
         {
-            key : 4,
+            key : 14,
             artist : '',
             name : '',
             url : process.env.PUBLIC_URL + 'assets/img/art14.jpg'
                 },
         {
-            key : 5,
+            key : 9,
             artist : '',
             name : '',
             url : process.env.PUBLIC_URL + 'assets/img/art9.jpg'
