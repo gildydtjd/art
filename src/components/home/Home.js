@@ -6,11 +6,11 @@ import MainContent from '../Contents/MainContent.js';
 import React from 'react';
 
 function Home(props) {
-    // const style = {
-    // backgroundImage: `url(${process.env.PUBLIC_URL}/assets/img/art7.jpg)`
-    // }
+    const style = {
+    backgroundImage: `url(${process.env.PUBLIC_URL}/assets/img/art7.jpg)`
+    }
     return (
-        <div className="home" >
+        <div className="home" style={style}>
                 <Header />
                 <HeaderContainer />
                 <MainContent />

@@ -25,6 +25,7 @@
 @media (max-width:768px){
     .header {
         flex-direction: column;
+        width: 768px;
     }
     .header__link {
         flex-direction: column;
