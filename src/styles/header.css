@@ -24,7 +24,7 @@
 
 @media (max-width:768px){
     .header {
-        flex-direction: column;
+        position: unset;
     }
     .header__link {
         flex-direction: column;
@@ -65,10 +65,10 @@
     .header__container a {
         font-size: 30px;
         color: grey;
-        margin-top: 250px;
     }
 
     .header__container{
         width: 100%;
+        height: 500px;
     }
 }
