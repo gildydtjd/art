@@ -3,9 +3,17 @@ import '../../styles/artContent.css';
 function ArtContent({number}) {
     const artNumber = number.key;
     console.log('artContent'+ artNumber);
+    console.log(`url(./assets/img/art${artNumber}.jpg)`)
     const style = {
         fontSize : '100px',
         color : 'white'
+    }
+    const backStyle = {
+        backgroundImage : `url(${process.env.PUBLIC_URL}/assets/img/art${artNumber}.jpg)`,
+        backgrounSize : 'cover',
+        backgroundPosition: 'center',
+        width : '700px',
+        height : '700px',
     }
 
     const art = [
@@ -47,11 +55,12 @@ function ArtContent({number}) {
         },
         
     ]
-
+   
     return (
         <div className="artContent">
             <article>
                 <h2 style={style}>{artNumber}</h2>
+                <div style={backStyle}></div>
             </article>
         </div>
     );
