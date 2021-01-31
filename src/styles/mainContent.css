@@ -42,6 +42,7 @@
     animation-name: screen;
     animation-timing-function: ease-in;
     animation-duration: 2s;
+    width: 100%;
 }
 
 .art__back__text {
@@ -70,10 +71,10 @@
     }
 
     .artList {
-        margin: 0;
-        margin-top: unset;
-        height: 400px;
+        margin: 5px;
+        height: 300px;
         background-color: unset;
+        width: 430px;
     }
 
     .artList_box{ 
