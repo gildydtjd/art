@@ -26,6 +26,7 @@
     .header {
         flex-direction: column;
         background-color: #00000080;
+        display: list-item;
     }
     .header__link {
         flex-direction: column;
