@@ -5,7 +5,6 @@
     background-origin: border-box;
     height: 100vh;
     background-attachment: fixed;
-    display: inline-block;
 }
 
 @media (max-width : 768px){

@@ -56,13 +56,13 @@ function MainContent(props) {
     console.log("메인");
     return (
         <div className="mainContent">
-                <div className="art__back" style={style}>
+                {/* <div className="art__back" style={style}>
                     <a className="art__back__text" href="/" alt="">Grief is the agony of an instant, the indulgence of
                         <br></br>grief the blunder of a life.</a>
-                </div>
-                <div className="art__list">
+                </div> */}
+                {/* <div className="art__list">
                 {aarts}
-                </div>
+                </div> */}
         </div>
     );
 }

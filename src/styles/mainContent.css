@@ -61,7 +61,7 @@
     animation-delay: 2s;
 }
 
-@media (max-width : 768px){
+/* @media (max-width : 768px){
     .mainContent {
         width: 100%;
     }
@@ -83,6 +83,7 @@
 
     .art__back {
         height: 400px;
+        width: auto;
     }
 
     .art__back__text {
@@ -94,7 +95,7 @@
     .art__back__text {
         font-size: 30px;
     }
-}
+} */
 
 @keyframes screen {
     0% {
