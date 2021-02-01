@@ -10,47 +10,67 @@ function MainContent(props) {
     const art = [
         {
             key : 1,
-            artist : '',
-            name : '',
+            artist : 'Sanzio Raffaello',
+            name : 'Pedro Diego Alvarado',
+            price : '$20,000',
             url : process.env.PUBLIC_URL + 'assets/img/art1.jpg'
         },
         {
             key : 5,
-            artist : '',
-            name : '',
+            artist : 'Sanzio Raffaello',
+            name : 'Pedro Diego Alvarado',
+            price : '$20,000',
             url : process.env.PUBLIC_URL + 'assets/img/art5.jpg'
                 },
         {
             key : 8,
-            artist : '',
-            name : '',
+            artist : 'Sanzio Raffaello',
+            name : 'Pedro Diego Alvarado',
+            price : '$20,000',
             url : process.env.PUBLIC_URL + 'assets/img/art8.jpg'
                 },
         {
             key : 14,
-            artist : '',
-            name : '',
+            artist : 'Sanzio Raffaello',
+            name : 'Pedro Diego Alvarado',
+            price : '$20,000',
             url : process.env.PUBLIC_URL + 'assets/img/art14.jpg'
                 },
         {
             key : 9,
-            artist : '',
-            name : '',
+            artist : 'Sanzio Raffaello',
+            name : 'Pedro Diego Alvarado',
             url : process.env.PUBLIC_URL + 'assets/img/art9.jpg'
         },
         {
             key : 6,
-            artist : '',
-            name : '',
+            artist : 'Sanzio Raffaello',
+            name : 'Pedro Diego Alvarado',
+            price : '$20,000',
             url : process.env.PUBLIC_URL + 'assets/img/art6.jpg'
         },
-        
+
+        {
+            key : 4,
+            artist : 'Sanzio Raffaello',
+            name : 'Pedro Diego Alvarado',
+            price : '$20,000',
+            url : process.env.PUBLIC_URL + 'assets/img/art4.jpg'
+        },
+
+        {
+            key : 18,
+            artist : 'Sanzio Raffaello',
+            name : 'Pedro Diego Alvarado',
+            price : '$20,000',
+            url : process.env.PUBLIC_URL + 'assets/img/art18.jpg'
+        },
     ]
 
     const aarts = art.map(a => 
         (   
                 <ArtList 
-            key={a.key} 
+            key={a.key}
             art={a}/>
         ))
     console.log("메인");
