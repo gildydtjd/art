@@ -57,6 +57,7 @@ function MainContent(props) {
     return (
         <div className="mainContent">
                 <div className="art__back" style={style}>
+                    <span className="art__back__text">If you hear a voice within you say ‘you cannot <br></br> paint’ then by all means paint, and then that<br></br> voice will be silenced</span>
                 </div>
                 <div className="art__list">
                 {aarts}
