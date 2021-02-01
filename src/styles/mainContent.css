@@ -1,14 +1,31 @@
 .mainContent {
     height: 100vh;
-    display: inline-table;
+    display: inline-block;
 }
 
+.art__back {
+    background-size: cover;
+    height: 100vh;
+    align-items: center;
+}
+
+.art {
+    width: 400px;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.art:hover{
+    transform: scale(1.2);
+}
+
+
 .art__list {
-    width: 100%;
-    float: left;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    display: contents;
+    height: 100vh;
+    display: block;
 }
 
 .artList_box {
@@ -18,56 +35,16 @@
     background-color: #000;
     overflow: hidden;
 }
-    
-.artList {
-    background-size: contain;
-    background-position: center;
-    width: 480px;
-    height: 480px;
-    background-repeat: no-repeat;
-    border-radius: 8px;
-}
 
-.artList:hover{
-    transform: scale(1.2);
-}
-
-.art__back {
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    animation-name: screen;
-    animation-timing-function: ease-in;
-    animation-duration: 2s;
-    width: 100%;
-}
-
-.art__back__text {
-    font-size: 50px;
-    font-weight: 700;
-    color: rgba(255,255,255,.75);
-    text-decoration: none;
-    position: relative;
-    margin-right: 25%;
-    margin-top: 29%;
-    text-shadow:4px 2px 8px grey;
-    animation: text;
-    animation-duration: 3s;
-    animation-direction: alternate;
-    animation-iteration-count: infinite;
-    animation-delay: 2s;
-}
-
-/* @media (max-width : 768px){
+@media (max-width : 768px){
     .mainContent {
         width: 100%;
+        display: inline-block;
     }
 
     .art__list {
         float: none;
+        margin-top: 50px;
     }
 
     .artList {
@@ -82,41 +59,8 @@
     }
 
     .art__back {
-        height: 400px;
+        display: none;
         width: auto;
     }
-
-    .art__back__text {
-        visibility: hidden;
-    }
 }
-
-@media (max-width : 1300px){
-    .art__back__text {
-        font-size: 30px;
-    }
-} */
-
-@keyframes screen {
-    0% {
-        opacity: 0.1;
-    }
-    
-    100% {
-        opacity: 1;
-
-    }
-}
-
-@keyframes text {
-    0% {
-        visibility: hidden;
-    }
-
-    100% {
-        color: lightcoral;
-    }
-}
-
-
 
