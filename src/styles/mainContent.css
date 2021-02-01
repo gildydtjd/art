@@ -10,7 +10,7 @@
 }
 
 .art {
-    width: 400px;
+    width: 360px;
     height: 400px;
     background-size: cover;
     background-position: center;
@@ -45,13 +45,6 @@
     .art__list {
         float: none;
         margin-top: 50px;
-    }
-
-    .artList {
-        margin: 5px;
-        height: 300px;
-        background-color: unset;
-        width: 430px;
     }
 
     .artList_box{ 
