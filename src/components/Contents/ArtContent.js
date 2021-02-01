@@ -1,4 +1,4 @@
-import React, {useReducer} from 'react';
+import React from 'react';
 import '../../styles/artContent.css';
 function ArtContent({number}) {
     const artNumber = number.key;
