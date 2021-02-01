@@ -8,7 +8,7 @@ function ArtContent({number}) {
     console.log('artContent'+ artNumber);
     console.log(`url(./assets/img/art${artNumber}.jpg)`)
     const backStyle = {
-        backgroundImage : `url(${process.env.PUBLIC_URL}/assets/img/art${artNumber}.jpg)`,
+        backgroundImage : `url(${process.env.PUBLIC_URL}/assets/img/art${artNumber}_thumb.jpg)`,
         backgroundSize : 'cover',
         backgroundRepeat: 'no-repeat',
         backgroundPosition: 'center center',
@@ -23,59 +23,58 @@ function ArtContent({number}) {
             artist : 'Sanzio Raffaello',
             name : 'Pedro Diego Alvarado',
             price : '$20,000',
-            url : process.env.PUBLIC_URL + 'assets/img/art1.jpg'
+            url : process.env.PUBLIC_URL + 'assets/img/art1_thumb.jpg'
         },
+        {
+            key : 2,
+            artist : 'Sanzio Raffaello',
+            name : 'Pedro Diego Alvarado',
+            price : '$20,000',
+            url : process.env.PUBLIC_URL + 'assets/img/art2_thumb.jpg'
+                },
+        {
+            key : 3,
+            artist : 'Sanzio Raffaello',
+            name : 'Pedro Diego Alvarado',
+            price : '$20,000',
+            url : process.env.PUBLIC_URL + 'assets/img/art3_thumb.jpg'
+                },
+        {
+            key : 4,
+            artist : 'Sanzio Raffaello',
+            name : 'Pedro Diego Alvarado',
+            price : '$20,000',
+            url : process.env.PUBLIC_URL + 'assets/img/art4_thumb.jpg'
+                },
         {
             key : 5,
             artist : 'Sanzio Raffaello',
             name : 'Pedro Diego Alvarado',
-            price : '$20,000',
-            url : process.env.PUBLIC_URL + 'assets/img/art5.jpg'
-                },
-        {
-            key : 8,
-            artist : 'Sanzio Raffaello',
-            name : 'Pedro Diego Alvarado',
-            price : '$20,000',
-            url : process.env.PUBLIC_URL + 'assets/img/art8.jpg'
-                },
-        {
-            key : 14,
-            artist : 'Sanzio Raffaello',
-            name : 'Pedro Diego Alvarado',
-            price : '$20,000',
-            url : process.env.PUBLIC_URL + 'assets/img/art14.jpg'
-                },
-        {
-            key : 9,
-            artist : 'Sanzio Raffaello',
-            name : 'Pedro Diego Alvarado',
-            url : process.env.PUBLIC_URL + 'assets/img/art9.jpg'
+            url : process.env.PUBLIC_URL + 'assets/img/art5_thumb.jpg'
         },
         {
             key : 6,
             artist : 'Sanzio Raffaello',
             name : 'Pedro Diego Alvarado',
             price : '$20,000',
-            url : process.env.PUBLIC_URL + 'assets/img/art6.jpg'
+            url : process.env.PUBLIC_URL + 'assets/img/art6_thumb.jpg'
         },
 
         {
-            key : 4,
+            key : 7,
             artist : 'Sanzio Raffaello',
             name : 'Pedro Diego Alvarado',
             price : '$20,000',
-            url : process.env.PUBLIC_URL + 'assets/img/art4.jpg'
+            url : process.env.PUBLIC_URL + 'assets/img/art7_thumb.jpg'
         },
 
         {
-            key : 18,
+            key : 8,
             artist : 'Sanzio Raffaello',
             name : 'Pedro Diego Alvarado',
             price : '$20,000',
-            url : process.env.PUBLIC_URL + 'assets/img/art18.jpg'
+            url : process.env.PUBLIC_URL + 'assets/img/art8_thumb.jpg'
         },
-        
     ]
     console.log(art);
    
