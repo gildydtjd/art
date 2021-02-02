@@ -85,27 +85,25 @@ function ArtContent({number}) {
         })},[number, target]);
 
     const backStyle = {
-        backgroundImage : `url(${process.env.PUBLIC_URL}/assets/img/art${artNumber}_thumb.jpg)`,
-        backgroundSize : 'cover',
-        backgroundRepeat: 'no-repeat',
-        backgroundPosition: 'center center',
-        width : '500px',
-        height : '500px',
-        float : 'right'
+        backgroundImage : `url(${process.env.PUBLIC_URL}/assets/img/art${artNumber}_thumb.jpg)`
     }
 
     return (
         <div className="artContent">
-            <article style={{width:'1000px' , height :'700px',backgroundColor:'white', borderRadius:'10px' }}>
-                <div className="" style={{float:'left', padding:'65px'}}>
-                    <span style={{display:'block', fontSize:'35px'}}>Uncover the art market<br/> with the Price Database</span>
-                    <span style={{display:'block', fontSize:'20px'}}>Search the most trusted<br/> database of auction results for<br/> fine art, design, and decorative<br/> artworks.</span>
-                    <span style={{display:'block', fontSize:'20px'}}>name : {artAbout.name}</span>
-                    <span style={{display:'block', fontSize:'20px'}}>artist : {artAbout.artist}</span>
-                    <span style={{display:'block', fontSize:'20px'}}>price : ${artAbout.price}</span>
+            <article className="artContent__article">
+                <div className="artAbout__box">
+                    <span className="artAbout" style={{fontWeight:'600', fontSize:'32px', fontStyle:'italic'}}>Uncover the art market<br/> with the Price Database</span>
+                    <span className="artAbout" style={{fontSize :'22px', marginTop:'16px', marginBottom:'20px'}}>Search the most trusted<br/> database of auction results for<br/> fine art, design, and decorative<br/> artworks.</span>
+                    <span className="artAbout"><span className="artAbout__list">name : </span>{artAbout.name}</span>
+                    <span className="artAbout"><span className="artAbout__list">artist : </span>{artAbout.artist}</span>
+                    <span className="artAbout"><span className="artAbout__list">price : </span>{artAbout.price}</span>
+                    <div className="artButton__box">
+                    <button>buy</button>
+                    <button>cart</button>
+                    </div>
                 </div>
 
-                <div style={backStyle}></div>
+                <div className="artContent__Back" style={backStyle}></div>
             </article>
         </div>
     );
