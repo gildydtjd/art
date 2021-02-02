@@ -74,6 +74,8 @@
     .artAbout__Button__box button {
         margin: 5px;
         width: 40%;
+        margin-top: 30px;
+
     }
 
     .artAbout__Content__article {
