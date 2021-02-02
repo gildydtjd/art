@@ -9,7 +9,7 @@ function ArtList( {art} ) {
     }
     return (
         <div className="artList_box">
-        <Link to={'/arthome/'+key}><div className="art" style={style}>
+        <Link to={'/artAbout/'+key}><div className="art" style={style}>
             </div></Link>
             </div>
     );
