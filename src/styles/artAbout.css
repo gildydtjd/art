@@ -72,10 +72,10 @@
         font-size: 15px;
     }
     .artAbout__Button__box button {
-        margin: 5px;
+        margin: 0;
         width: 40%;
         margin-top: 10px;
-
+        height: 25px;
     }
 
     .artAbout__Content__article {
