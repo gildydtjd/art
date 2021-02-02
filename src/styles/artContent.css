@@ -60,6 +60,12 @@
 }
 
 @media (max-width : 768px){
+    .artAbout__box {
+        padding: 50px 50px 0px 50px;
+    }
+    .artAbout {
+        font-size: 15px;
+    }
     .artButton__box button {
         width: 40%;
     }
