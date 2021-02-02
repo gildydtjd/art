@@ -11,40 +11,40 @@ function MainContent(props) {
         {
             key : 1,
             artist : 'Sanzio Raffaello',
-            name : 'Pedro Diego Alvarado',
+            name : '1. Pedro Diego Alvarado',
             price : '$20,000',
             url : process.env.PUBLIC_URL + 'assets/img/art1_thumb.jpg'
         },
         {
             key : 2,
             artist : 'Sanzio Raffaello',
-            name : 'Pedro Diego Alvarado',
+            name : '2. Pedro Diego Alvarado',
             price : '$20,000',
             url : process.env.PUBLIC_URL + 'assets/img/art2_thumb.jpg'
                 },
         {
             key : 3,
             artist : 'Sanzio Raffaello',
-            name : 'Pedro Diego Alvarado',
+            name : '3. Pedro Diego Alvarado',
             price : '$20,000',
             url : process.env.PUBLIC_URL + 'assets/img/art3_thumb.jpg'
                 },
         {
             key : 4,
-            artist : 'Sanzio Raffaello',
+            artist : '4. Sanzio Raffaello',
             name : 'Pedro Diego Alvarado',
             price : '$20,000',
             url : process.env.PUBLIC_URL + 'assets/img/art4_thumb.jpg'
                 },
         {
             key : 5,
-            artist : 'Sanzio Raffaello',
+            artist : '5. Sanzio Raffaello',
             name : 'Pedro Diego Alvarado',
             url : process.env.PUBLIC_URL + 'assets/img/art5_thumb.jpg'
         },
         {
             key : 6,
-            artist : 'Sanzio Raffaello',
+            artist : '6. Sanzio Raffaello',
             name : 'Pedro Diego Alvarado',
             price : '$20,000',
             url : process.env.PUBLIC_URL + 'assets/img/art6_thumb.jpg'
@@ -52,7 +52,7 @@ function MainContent(props) {
 
         {
             key : 7,
-            artist : 'Sanzio Raffaello',
+            artist : '7. Sanzio Raffaello',
             name : 'Pedro Diego Alvarado',
             price : '$20,000',
             url : process.env.PUBLIC_URL + 'assets/img/art7_thumb.jpg'
@@ -60,7 +60,7 @@ function MainContent(props) {
 
         {
             key : 8,
-            artist : 'Sanzio Raffaello',
+            artist : '8. Sanzio Raffaello',
             name : 'Pedro Diego Alvarado',
             price : '$20,000',
             url : process.env.PUBLIC_URL + 'assets/img/art8_thumb.jpg'
