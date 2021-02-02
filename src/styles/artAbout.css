@@ -89,6 +89,7 @@
         display: inline-block;
     }
     .artAbout__bottom {
-        display: none;
+        margin-top: 5px;
+        height: 15px;
     }
 }
