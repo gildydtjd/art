@@ -71,11 +71,14 @@
     .artAbout {
         font-size: 15px;
     }
+
+    .artAbout__Button__box {
+        margin-top: 20px;
+        height: 60px;
+    }
+
     .artAbout__Button__box button {
-        margin: 0;
         width: 40%;
-        margin-top: 10px;
-        height: 25px;
     }
 
     .artAbout__Content__article {
