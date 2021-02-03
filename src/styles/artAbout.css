@@ -18,7 +18,7 @@
 
 .artAbout__Content__article {
     width: 1000px;
-    height : 700px;
+    height : 72%;
     background-color: white;
     border-radius: 10px;
 }
@@ -91,5 +91,9 @@
     .artAbout__bottom {
         margin-top: 5px;
         height: 15px;
+    }
+
+    .artAbout__Content__article{
+        height: 90%;
     }
 }
