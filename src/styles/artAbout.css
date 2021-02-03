@@ -94,4 +94,8 @@
         margin-top: 5px;
         height: 15px;
     }
+
+    .artAbout__Content__article {
+        height: 90%;
+    }
 }
