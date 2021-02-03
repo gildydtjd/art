@@ -67,6 +67,7 @@
 @media (max-width : 768px){
     .artAbout__box {
         padding: 50px 50px 0px 50px;
+        height: 400px;
     }
     .artAbout {
         font-size: 15px;
@@ -96,6 +97,6 @@
     }
 
     .artAbout__Content__article {
-        height: 700px;
+        height: 750px;
     }
 }
