@@ -65,9 +65,12 @@
 }
 
 @media (max-width : 768px){
+    .artAbout__Content {
+        height: 115%;
+    }
     .artAbout__box {
         padding: 50px 50px 0px 50px;
-        height: 400px;
+        height: 470px;
     }
     .artAbout {
         font-size: 15px;
@@ -86,6 +89,7 @@
     .artAbout__Content__Back {
         float: none;
         height: 200px;
+        width: 100%;
         display: inline-block;
         position: relative;
         display: flex;
@@ -97,6 +101,6 @@
     }
 
     .artAbout__Content__article {
-        height: 750px;
+        height: 680px;
     }
 }

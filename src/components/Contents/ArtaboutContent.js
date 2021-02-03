@@ -102,9 +102,8 @@ function ArtaboutContent({number}) {
                     <button>cart</button>
                     </div>
                 </div>
-
-                <div className="artAbout__Content__Back" style={backStyle}></div>
-                <div className="artAbout__bottom"></div>
+                    <div className="artAbout__Content__Back" style={backStyle}></div>
+                    <div className="artAbout__bottom"></div>
             </article>
         </div>
     );
