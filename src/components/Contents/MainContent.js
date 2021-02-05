@@ -73,7 +73,8 @@ function MainContent(props) {
                 <ArtList 
             key={a.key}
             art={a}/>
-        ))
+        ));
+        
     console.log("메인");
     return (
         <div className="mainContent">

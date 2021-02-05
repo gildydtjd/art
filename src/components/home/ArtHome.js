@@ -5,12 +5,8 @@ import '../../styles/artHome.css';
 import React from 'react';
 
 function ArtHome(props) {
-    const style = {
-        backgroundImage: `url(${process.env.PUBLIC_URL}/assets/img/art7.jpg)`
-    }
-
     return (
-        <div className="arthome" style={style}>
+        <div className="arthome">
         <Header/>
         <ArtContent />
         <Footer />
