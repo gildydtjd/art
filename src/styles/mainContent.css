@@ -1,86 +1,83 @@
 .mainContent {
-    height: 100vh;
-    display: inline-block;
+  height: 100vh;
+  display: inline-block;
 }
 
 .art__back {
-    background-size: cover;
-    height: 100vh;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    animation-name: screen;
-    animation-duration: 2s;
+  background-size: cover;
+  height: 100vh;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  animation-name: screen;
+  animation-duration: 2s;
 }
 
 @keyframes screen {
-    0% {
-        opacity: 0.2;
-    }
-    50% {
-        opacity: 0.6;
-    }
+  0% {
+    opacity: 0.2;
+  }
+  50% {
+    opacity: 0.6;
+  }
 
-    100%{
-        opacity: 1.0;
-    }   
+  100% {
+    opacity: 1;
+  }
 }
 
-.art__back__text{
-    font-size: 40px;
-    font-weight: 900;
-    color: rgba(255,255,255,.75);
-    text-decoration: none;
-    margin-top: 30%;
-    margin-right: 40%;
-    text-shadow: 6px 2px 6px thistle;
+.art__back__text {
+  font-size: 40px;
+  font-weight: 900;
+  color: rgba(255, 255, 255, 0.75);
+  text-decoration: none;
+  margin-top: 30%;
+  margin-right: 40%;
+  text-shadow: 6px 2px 6px thistle;
 }
 
 .art {
-    width: 360px;
-    height: 400px;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-
+  width: 360px;
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
-.art:hover{
-    transform: scale(1.2);
+.art:hover {
+  transform: scale(1.2);
 }
-
 
 .art__list {
-    height: 100vh;
-    display: block;
+  height: 100vh;
+  display: block;
 }
 
 .artList_box {
-    background-repeat: no-repeat;
+  background-repeat: no-repeat;
+  display: inline-block;
+  margin: 55px 40px;
+  background-color: #000;
+  overflow: hidden;
+}
+
+@media (max-width: 768px) {
+  .mainContent {
+    width: 100%;
     display: inline-block;
-    margin: 55px 40px;
-    background-color: #000;
-    overflow: hidden;
+  }
+
+  .art__list {
+    float: none;
+    margin-top: 50px;
+  }
+
+  .artList_box {
+    margin: 0;
+  }
+
+  .art__back {
+    display: none;
+    width: auto;
+  }
 }
-
-@media (max-width : 768px){
-    .mainContent {
-        width: 100%;
-        display: inline-block;
-    }
-
-    .art__list {
-        float: none;
-        margin-top: 50px;
-    }
-
-    .artList_box{ 
-        margin: 0;
-    }
-
-    .art__back {
-        display: none;
-        width: auto;
-    }
-}
-

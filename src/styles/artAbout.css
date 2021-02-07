@@ -1,107 +1,107 @@
 .artAbout__Content {
-    height: 100vh;
-    justify-content: center;
-    align-items: center;
-    display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  display: flex;
 }
 
-.artAbout__box{
-    display: inline-block;
-    padding: 50px;
+.artAbout__box {
+  display: inline-block;
+  padding: 50px;
 }
 
 .artAbout {
-    display: block;
-    font-size: 20px;
-    text-align: left;
+  display: block;
+  font-size: 20px;
+  text-align: left;
 }
 
 .artAbout__Content__article {
-    width: 1000px;
-    height : 72%;
-    background-color: white;
-    border-radius: 10px;
+  width: 1000px;
+  height: 72%;
+  background-color: white;
+  border-radius: 10px;
 }
 
 .artAbout__list {
-    color: rgba(0, 0, 0, 0.5);
+  color: rgba(0, 0, 0, 0.5);
 }
 
-.artAbout__Button__box{
-    margin-top: 40px;
-    width: 100%;
-    height: 100px;
+.artAbout__Button__box {
+  margin-top: 40px;
+  width: 100%;
+  height: 100px;
 }
 
 .artAbout__Button__box button {
-    width: 44%;
-    margin: 10px;
-    border: none;
-    cursor: pointer;
-    height: 50px;
-    font-weight: 600;
-    font-style: italic;
-    font-size: 18px;
+  width: 44%;
+  margin: 10px;
+  border: none;
+  cursor: pointer;
+  height: 50px;
+  font-weight: 600;
+  font-style: italic;
+  font-size: 18px;
 }
 
 .artAbout__Button__box button:hover {
-    border : 2px solid #000;
-    background-color: peachpuff;
+  border: 2px solid #000;
+  background-color: peachpuff;
 }
 
-.artAbout__Content__Back{
-    background-size : cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    width : 500px;
-    height : 500px;
-    float : right;
+.artAbout__Content__Back {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 500px;
+  height: 500px;
+  float: right;
 }
-.artAbout__bottom{
-    border-bottom: 2px groove black;
-    border-top: 2px groove #000;
-    height: 30px;
-    margin-top: 50px;
+.artAbout__bottom {
+  border-bottom: 2px groove black;
+  border-top: 2px groove #000;
+  height: 30px;
+  margin-top: 50px;
 }
 
-@media (max-width : 768px){
-    .artAbout__Content {
-        height: 770px;
-    }
-    .artAbout__box {
-        padding: 50px 50px 0px 50px;
-        height: 470px;
-    }
-    .artAbout {
-        font-size: 15px;
-    }
+@media (max-width: 768px) {
+  .artAbout__Content {
+    height: 770px;
+  }
+  .artAbout__box {
+    padding: 50px 50px 0px 50px;
+    height: 470px;
+  }
+  .artAbout {
+    font-size: 15px;
+  }
 
-    .artAbout__Button__box {
-        margin-top: 5px;
-        margin-bottom: 5px;
-        height: 60px;
-    }
+  .artAbout__Button__box {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 60px;
+  }
 
-    .artAbout__Button__box button {
-        width: 40%;
-    }
-    
-    .artAbout__Content__Back {
-        float: none;
-        height: 200px;
-        width: 100%;
-        display: inline-block;
-        position: relative;
-        display: flex;
-        margin-top: 10px;
-    }
+  .artAbout__Button__box button {
+    width: 40%;
+  }
 
-    .artAbout__bottom {
-        margin-top: 5px;
-        height: 15px;
-    }
+  .artAbout__Content__Back {
+    float: none;
+    height: 200px;
+    width: 100%;
+    display: inline-block;
+    position: relative;
+    display: flex;
+    margin-top: 10px;
+  }
 
-    .artAbout__Content__article {
-        height: 680px;
-    }
+  .artAbout__bottom {
+    margin-top: 5px;
+    height: 15px;
+  }
+
+  .artAbout__Content__article {
+    height: 680px;
+  }
 }

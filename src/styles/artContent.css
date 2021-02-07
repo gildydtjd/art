@@ -1,19 +1,19 @@
 .artContent {
-    height: 100vh;
-    position: relative;
-    margin-bottom: 150px;
+  height: 100vh;
+  position: relative;
+  margin-bottom: 150px;
 }
 
 .artContent__box {
-    position: absolute;
-    margin-top: 50px;
-    height: 100%;
+  position: absolute;
+  margin-top: 50px;
+  height: 100%;
 }
 
-@media (max-width : 768px){
-    .artContent {
-        display: block;
-        height: 3300px;
-        margin-bottom: unset;
-    }
+@media (max-width: 768px) {
+  .artContent {
+    display: block;
+    height: 3300px;
+    margin-bottom: unset;
+  }
 }

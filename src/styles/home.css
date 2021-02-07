@@ -1,14 +1,14 @@
 .home {
-    background-size: cover;
-    background-attachment: scroll;
-    background-position: center;
-    background-origin: border-box;
-    height: 100vh;
-    background-attachment: fixed;
+  background-size: cover;
+  background-attachment: scroll;
+  background-position: center;
+  background-origin: border-box;
+  height: 100vh;
+  background-attachment: fixed;
 }
 
-@media (max-width : 768px){
-    .home {
-        background-attachment: unset;
-    }
+@media (max-width: 768px) {
+  .home {
+    background-attachment: unset;
+  }
 }

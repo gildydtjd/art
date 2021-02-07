@@ -1,4 +1,32 @@
 .artistContent {
-    height: 100vh;
 }
 
+.artist_section1 {
+  height: 100vh;
+  display: flex;
+}
+
+.artist_section1 > article {
+  width: 50%;
+  height: 100%;
+}
+
+.artist_section2 {
+  height: 100vh;
+  display: flex;
+}
+
+.artist_section2 > article {
+  width: 50%;
+  height: 100%;
+}
+
+.artist_section3 {
+  height: 100vh;
+  display: flex;
+}
+
+.artist_section3 > article {
+  width: 50%;
+  height: 100%;
+}

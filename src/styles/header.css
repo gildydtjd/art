@@ -1,66 +1,66 @@
 .header {
-    width: 100%;
-    position: fixed;
-    z-index: 1000;
-    background-color: #00000080;
+  width: 100%;
+  position: fixed;
+  z-index: 1000;
+  background-color: #00000080;
 }
 
-.header__link{
-    float: right;
-    margin-right: 30px;
+.header__link {
+  float: right;
+  margin-right: 30px;
 }
 
 .header__menu {
-    color: snow;
-    text-decoration: none;
-    padding: 10px 40px;
-    width: 80px;
-    font-size: 16px;
+  color: snow;
+  text-decoration: none;
+  padding: 10px 40px;
+  width: 80px;
+  font-size: 16px;
 }
 
 .header__menu:hover {
-    color: navajowhite;
+  color: navajowhite;
 }
 
-.header__container{
-    display: flex;
-    height: 100vh;
-    justify-content: center;
-    align-items: center;
+.header__container {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
 }
 
 .header__container a {
-    font-size: 50px;
-    font-weight: 700;
-    color: rgba(255,255,255,.75);
-    text-decoration: none;
+  font-size: 50px;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.75);
+  text-decoration: none;
 }
 
-@media (max-width:768px){
-    .header {
-        flex-direction: column;
-    }
-    .header__link {
-        flex-direction: column;
-        float: none;
-        margin-right: unset;
-    }
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+  }
+  .header__link {
+    flex-direction: column;
+    float: none;
+    margin-right: unset;
+  }
 
-    .header__menu {
-        width: 100%;
-        justify-content: center;
-        align-items: center;
-        padding: 0;
-        color: white;
-    }
+  .header__menu {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    color: white;
+  }
 
-    .header__menu:hover {
-        color: navajowhite;
-        border-bottom: unset;
-    }
+  .header__menu:hover {
+    color: navajowhite;
+    border-bottom: unset;
+  }
 
-    .header__container a {
-        font-size: 30px;
-        margin-top: 250px;
-    }
+  .header__container a {
+    font-size: 30px;
+    margin-top: 250px;
+  }
 }
