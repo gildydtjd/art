@@ -1,9 +1,20 @@
-import React, { Component } from 'react';
+import React from 'react';
+import '../../styles/qnaHome.css';
+import QNAContent from '../Contents/QNAContent';
+import Footer from '../footer/Footer';
+import Header from '../header/Header';
 
-class QNAHome extends Component {
-  render() {
-    return <div>큐앤에이홈</div>;
-  }
+function QNAHome(props) {
+  const style = {
+    backgroundImage: `url(${process.env.PUBLIC_URL}/assets/img/art7.jpg)`,
+  };
+  return (
+    <div className="QNAhome" style={style}>
+      <Header />
+      <QNAContent />
+      <Footer />
+    </div>
+  );
 }
 
 export default QNAHome;
