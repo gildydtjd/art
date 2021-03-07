@@ -5,8 +5,15 @@
   height: 100%;
 }
 
+.price {
+  margin-top: -40px;
+}
+
 @media (max-width: 768px) {
   .artContent {
     margin-bottom: 20px;
+  }
+  .price {
+    margin-top: unset;
   }
 }

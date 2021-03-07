@@ -7,7 +7,7 @@ function ArtistList({ artist }) {
     <div className="ArtistList">
       <div className="ArtistList__top">{artist.key}</div>
       <div className="ArtistList__body">
-        <img src={artist.url} alt=""></img>
+        <img src={process.env.PUBLIC_URL + artist.url} alt=""></img>
       </div>
       <div className="ArtistList__bottom">
         <article>{artist.about}</article>
