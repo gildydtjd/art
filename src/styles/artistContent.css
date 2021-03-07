@@ -64,7 +64,7 @@
     border: unset;
   }
 
-  ..ArtistList__bottom {
+  .ArtistList__bottom {
     height: 200px;
   }
   .ArtistList__top {
