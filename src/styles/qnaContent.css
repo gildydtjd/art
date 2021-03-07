@@ -6,7 +6,7 @@
 }
 
 .QNA__box {
-  width: 90%;
+  width: 70%;
   height: 750px;
   background-color: white;
   margin-top: 70px;
@@ -22,14 +22,13 @@
 
 .QNA__box__top span:before {
   position: absolute;
-  top: 0;
+  top: 20px;
   left: 0;
   display: block;
-  width: 12px;
+  width: 10px;
   height: 12px;
   background: #ed1a3b;
   content: '';
-  border-radius: 50%;
 }
 .QNA__box__top span {
   position: relative;
@@ -40,17 +39,17 @@
 }
 
 .QNA__box__body {
-  width: 100%;
   height: 400px;
+  width: 100%;
 }
 
 .QNA__box__about {
   height: 80px;
   margin: 50px;
-  width: 60%;
-  margin-left: 20%;
+  width: 40%;
   text-align: left;
   border-bottom: 1px solid #535353;
+  margin-left: 30%;
 }
 
 .QNA__box__link {
@@ -58,13 +57,62 @@
   color: #535353;
   font-size: 35px;
 }
-
+.QNA__box__link:hover {
+  color: lightsalmon;
+  font-weight: 500;
+}
 .QNA__box__bottom {
   height: 130px;
-  width: 60%;
+  width: 50%;
   border: 3px solid #c9c9c9;
-  margin-left: 20%;
-  text-align: center;
+  margin-left: 25%;
   justify-content: center;
   display: flex;
+}
+
+.QNA__box__link__bottom {
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.qna_img {
+  width: 40px;
+  height: 40px;
+  margin-right: 20px;
+}
+
+@media (max-width: 768px) {
+  .QNA__box {
+    margin-top: 100px;
+    height: 600px;
+  }
+
+  .QNA__box__link {
+    font-size: 20px;
+  }
+
+  .QNA__box__body {
+    height: 300px;
+  }
+
+  .QNA__box__about {
+    width: 80%;
+    margin-left: 10%;
+    height: 50px;
+  }
+
+  .QNA__box__bottom {
+    width: 80%;
+    margin-left: 10%;
+  }
+
+  .qna_img {
+    width: 25px;
+    height: 25px;
+  }
+
+  .QNA__box__link__bottom {
+    font-size: 15px;
+    margin-top: 20px;
+  }
 }

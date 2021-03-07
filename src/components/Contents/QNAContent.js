@@ -13,9 +13,9 @@ function QNAContent(props) {
           <div className="QNA__box__about">
             <Link to="/QNAHome" className="QNA__box__link">
               <img
+                className="qna_img"
                 src={process.env.PUBLIC_URL + './assets/QNA1.png'}
                 alt=""
-                style={{ width: '40px', height: '40px', marginRight: '20px' }}
               ></img>
               종합안내
             </Link>
@@ -23,9 +23,9 @@ function QNAContent(props) {
           <div className="QNA__box__about">
             <Link to="/QNAHome" className="QNA__box__link">
               <img
+                className="qna_img"
                 src={process.env.PUBLIC_URL + './assets/QNA2.png'}
                 alt=""
-                style={{ width: '40px', height: '40px', marginRight: '20px' }}
               ></img>
               고객상담
             </Link>
@@ -33,23 +33,18 @@ function QNAContent(props) {
           <div className="QNA__box__about">
             <Link to="/QNAHome" className="QNA__box__link">
               <img
+                className="qna_img"
                 src={process.env.PUBLIC_URL + './assets/QNA3.png'}
                 alt=""
-                style={{ width: '40px', height: '40px', marginRight: '20px' }}
               ></img>
               유실물관리
             </Link>
           </div>
         </div>
         <div className="QNA__box__bottom">
-          <Link
-            to="/QNAHome"
-            className="QNA__box__link"
-            style={{ color: '#535353', marginTop: '30px', fontSize: '20px' }}
-          >
-            Call : 010-0000-1587
-            <br></br>
-            Email : gildydjtd@naver.com
+          <Link to="/QNAHome" className="QNA__box__link__bottom">
+            <p>Call : 010-0000-1587</p>
+            <p>Email : gildydjtd@naver.com</p>
           </Link>
         </div>
       </div>
