@@ -5,7 +5,7 @@ function ArtistContent() {
   const ArtistItem = [
     {
       key: 1,
-      url: 'assets/img/artist1.jpg',
+      url: 'assets/img/artist4.jpg',
       about:
         'The three little pigs build new houses. The first little pig builds a house of straw. The second little pig builds a house of wood.The house is pretty. He likes it very much.',
       name: 'Sam smith',
@@ -26,7 +26,7 @@ function ArtistContent() {
     },
     {
       key: 4,
-      url: 'assets/img/artist4.jpg',
+      url: 'assets/img/artist1.jpg',
       about:
         'The three little pigs build new houses. The first little pig builds a house of straw. The second little pig builds a house of wood.The house is pretty. He likes it very much.',
       name: 'set',
